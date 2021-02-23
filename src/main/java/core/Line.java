@@ -40,11 +40,11 @@ public class Line implements Comparable<Line> // creating class Line and impleme
     public int compareTo(Line line)
     {
         return Integer.compare(number, line.getNumber());
-    } // redefine method compareTo
+    } // redefine method compareTo and return 1 or -1 or 0
 
     @Override
     public boolean equals(Object obj)
     {
-        return compareTo((Line) obj) == 0;
+        return compareTo((Line) obj) == 0; // redefine method equals and call method compareTo and pass argument object
     }
 }
