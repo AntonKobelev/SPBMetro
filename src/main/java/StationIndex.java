@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class StationIndex
 {
-    HashMap<Integer, Line> number2line;
+    HashMap<Integer, Line> number2line; // creating variable HashMap number2line
     TreeSet<Station> stations;
     TreeMap<Station, TreeSet<Station>> connections;
 
